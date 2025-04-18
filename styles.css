@@ -1,6 +1,58 @@
+/* general */
+
 body {
     background-color: #fdf4e9;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20vw;
+    padding-right: 20vw;
    
 }
+
+/* secciones */
+
+.secciones {
+    text-align: center;
+
+}
+
+/* titulo y subtitulos */
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 32px;
+}
+
+/* pagina index */
+
+.img-chuelangaron {
+    display: block;
+    margin: auto;
+    width: 750px;
+}
+
+.intro {
+    color: #3a2b1a;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link {
+    color: #a77a38;
+}
+
+
+/* truquitos para usar despues
+1. estilo par imagen al pasar mouse:
+
+.img-chuelangaron:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+} */
+
+
 
