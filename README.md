@@ -1,1 +1,1 @@
-# Hola, soy la Chuela y este es mi primer proyecto de "The Odin Project", hare una pagina con recetas de cocina repasando lo visto de html hasta ahora :D uwu
+# Hola, soy Abigail, "Chuela" para los amigos. Este es mi primer proyecto con todo lo que voy estudiando de "The Odin Project", una pagina donde experimento todo lo que voy aprendiend :D

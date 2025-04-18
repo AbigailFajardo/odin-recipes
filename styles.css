@@ -47,14 +47,15 @@ body {
 h1 {
     font-size: 40px;
     text-align: center;
+    color: #a96921;
     
 }
 
 h2 {
     font-size: 32px;
     text-align: center;
+    color: #a96921;
 }
-
 
 
 /* textos */
@@ -69,14 +70,6 @@ h2 {
     color: #a77a38;
 }
 
-
-/* truquitos para usar despues
-1. estilo par imagen al pasar mouse:
-
-.img-chuelangaron:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
-} */
 
 
 
