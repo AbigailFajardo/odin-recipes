@@ -15,6 +15,33 @@ body {
 
 }
 
+/* imagenes */
+
+.img-chuelangaron,
+.img-recetas {
+    display: block;
+    margin: auto;
+    width: 750px;
+}
+
+.chueligalleta,
+.warrito {
+    display: block;
+    margin: auto;
+    width: 400px;
+    
+}
+
+.chueligalleta:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.warrito:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 /* titulo y subtitulos */
 
 h1 {
@@ -25,15 +52,12 @@ h1 {
 
 h2 {
     font-size: 32px;
+    text-align: center;
 }
 
-/* pagina index */
 
-.img-chuelangaron {
-    display: block;
-    margin: auto;
-    width: 750px;
-}
+
+/* textos */
 
 .intro {
     color: #3a2b1a;
