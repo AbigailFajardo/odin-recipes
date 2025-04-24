@@ -12,6 +12,7 @@ body {
     justify-content: center;
     gap: 50px;
     padding: 10px;
+    font-size: 20px
 }
 
 .secciones a {
@@ -23,6 +24,8 @@ body {
 .secciones a:hover {
     color: #5a411c;
     transition: 0s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: text-shadow 0,3s ease;
 }
 
 
