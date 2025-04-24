@@ -9,8 +9,8 @@ body {
 
 .secciones {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: center; /* centrar horizontalmente*/
+    gap: 50px; /* espacio entre los elementos */
     padding: 10px;
     font-size: 20px
 }
