@@ -3,18 +3,28 @@
 body {
     background-color: #fdf4e9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 20vw;
-    padding-right: 20vw;
-   
 }
 
 /* secciones */
 
 .secciones {
-    display: block;
-    text-align: center;
-
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
 }
+
+.secciones a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #a77a38;
+}
+
+.secciones a:hover {
+    color: #5a411c;
+    transition: 0s;
+}
+
 
 /* imagenes */
 
