@@ -17,7 +17,7 @@ main {
 
 h1 {
     color: #a96921;
-    font-size: clamp(30px, 5vw, 40px); /* tamaño de la fuente */
+    font-size: clamp(30px, 5vw, 40px); 
     text-align: center;
 }
 
@@ -32,7 +32,7 @@ h2 {
 
 .intro {
     color: #3a2b1a;
-    font-size: clamp(18px, 2vw, 20px); /* tamaño de la fuente */
+    font-size: clamp(18px, 2vw, 20px); 
     text-align: center;
     max-width: 750px;
 }
@@ -46,8 +46,8 @@ h2 {
 
 .secciones {
     display: flex;
-    justify-content: center; /* centrar horizontalmente*/
-    gap: 50px; /* espacio entre los elementos */
+    justify-content: center; 
+    gap: 50px; 
     padding: 10px;
     font-size: 20px
 }
@@ -66,29 +66,47 @@ h2 {
 }
 
 
-/* imagenes */
-
-
+/* imagenes de cabecera*/
 .img-chuelangaron,
 .img-recetas {
     display: block;
     margin: auto; 
-    width: 100%; /* ancho de la imagen en la patalla */
-    max-width: 800px; /* ancho maximo de la imagen */
-    height: auto; /* alto automatico */
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
     border-radius: 25px; 
     box-shadow: 0 8px 20px rgba(58, 43, 26, 0.4); /* sombra */
+}
+
+/*estilos para las imagenes de recetas*/
+.recetas-flex {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    padding: 20px;
+    flex-wrap: wrap; /* para que se ajusten a la pantalla */
+}
+
+.recetas-flex .receta-1,
+.recetas-flex .receta-2 {
+    flex: 1 1 300px; 
+    max-width: 400px; 
+    text-align: center;
 }
 
 .chueligalleta,
 .warrito {
     display: block;
     margin: auto;
-    width: 400px;
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
     border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(58, 43, 26, 0.4); /* sombra */
     
 }
 
+/*estilos al pasar el cursor por encima de las imagenes*/
 .chueligalleta:hover {
     transform: scale(1.05);
     transition: 0.5s;;
