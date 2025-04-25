@@ -13,6 +13,35 @@ main {
     text-align: center;  
 }
 
+/* titulo y subtitulos */
+
+h1 {
+    color: #a96921;
+    font-size: clamp(30px, 5vw, 40px); /* tamaño de la fuente */
+    text-align: center;
+}
+
+h2 {
+    color: #a96921;
+    font-size: 32px;
+    text-align: center;
+   
+}
+
+/* textos */
+
+.intro {
+    color: #3a2b1a;
+    font-size: clamp(18px, 2vw, 20px); /* tamaño de la fuente */
+    text-align: center;
+    max-width: 750px;
+}
+
+.link {
+    color: #a77a38;
+}
+
+
 /* secciones */
 
 .secciones {
@@ -69,34 +98,9 @@ main {
 }
 
 
-/* titulo y subtitulos */
-
-h1 {
-    color: #a96921;
-    font-size: clamp(30px, 5vw, 40px); /* tamaño de la fuente */
-    text-align: center;
-}
-
-h2 {
-    color: #a96921;
-    font-size: 32px;
-    text-align: center;
-   
-}
 
 
-/* textos */
 
-.intro {
-    color: #3a2b1a;
-    font-size: clamp(18px, 2vw, 20px); /* tamaño de la fuente */
-    text-align: center;
-    max-width: 750px;
-}
-
-.link {
-    color: #a77a38;
-}
 
 
 
