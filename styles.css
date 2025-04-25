@@ -5,6 +5,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;  
+}
+
 /* secciones */
 
 .secciones {
@@ -16,15 +24,15 @@ body {
 }
 
 .secciones a {
-    text-decoration: none;
+    text-decoration: none; /* quitar subrayado */
     font-weight: bold;
     color: #a77a38;
 }
 
 .secciones a:hover {
     color: #5a411c;
-    transition: 0s;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0s; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
     transition: text-shadow 0,3s ease;
 }
 
@@ -34,9 +42,11 @@ body {
 .img-chuelangaron,
 .img-recetas {
     display: block;
-    margin: auto;
-    width: 750px;
-    border-radius: 25px;
+    margin: auto; 
+    width: 100%; /* ancho de la imagen en la patalla */
+    max-width: 800px; /* ancho maximo de la imagen */
+    height: auto; /* alto automatico */
+    border-radius: 25px; 
 }
 
 .chueligalleta,
@@ -62,16 +72,16 @@ body {
 /* titulo y subtitulos */
 
 h1 {
-    font-size: 40px;
-    text-align: center;
     color: #a96921;
-    
+    font-size: clamp(30px, 5vw, 40px); /* tamaño de la fuente */
+    text-align: center;
 }
 
 h2 {
+    color: #a96921;
     font-size: 32px;
     text-align: center;
-    color: #a96921;
+   
 }
 
 
@@ -79,13 +89,13 @@ h2 {
 
 .intro {
     color: #3a2b1a;
-    font-size: 20px;
+    font-size: clamp(18px, 2vw, 20px); /* tamaño de la fuente */
     text-align: center;
+    max-width: 750px;
 }
 
 .link {
     color: #a77a38;
-    
 }
 
 
