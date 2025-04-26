@@ -3,6 +3,7 @@
 body {
     background-color: #fdf4e9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 main {
@@ -116,11 +117,31 @@ h2 {
     transition: 0.5s;
 }
 
+/*estilos para recetas*/
+.receta {
+    font-size: clamp(18px, 2vw, 20px); 
+    color: #3a2b1a;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px; 
+    text-align: left;
+    line-height: 30px;
 
+}
 
+ul {
+    list-style-type: none; /* quitar viñetas */
+    padding-left: 0.; /*quitar sangria*/
+}
 
+ul li::before {
+    content:"⟡"; /* agregar viñetas personalizadas */
+    margin-right: 10px; /* espacio entre viñeta y texto */
+}
 
-
+ol {
+    padding-left: 5;
+}
 
 
 
