@@ -129,6 +129,7 @@ h2 {
 
 }
 
+/* estilos para listas */
 ul {
     list-style-type: none; /* quitar viñetas */
     padding-left: 0.; /*quitar sangria*/
@@ -140,7 +141,24 @@ ul li::before {
 }
 
 ol {
-    padding-left: 5;
+    padding-left: 5; 
+}
+
+/*estilos para formulario*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 25px
+}
+
+imput, textarea {
+    padding 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
 }
 
 
