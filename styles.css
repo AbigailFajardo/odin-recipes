@@ -145,7 +145,6 @@ ol {
 }
 
 /*estilos para formulario*/
-
 /*estilo general al contenedor*/
 .formulario-contacto {
 
@@ -202,3 +201,18 @@ ol {
     background-color: #5a411c;
 }
 
+/*estilos seccion felipe*/
+.img-felipe {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(58, 43, 26, 0.2);
+    margin: 20px auto;
+    display: block;
+}
+
+.img-felipe:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
