@@ -216,3 +216,35 @@ ol {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
+
+/*estilos para footer*/
+/* Estilos generales para el footer */
+footer {
+    color: #b68e5f; /* texto blanco */
+    padding: 40px 0; /* espaciado alrededor */
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* Estilos para los enlaces de redes sociales */
+footer .social-links a {
+    text-decoration: none;
+    color: #b68e5f; !important
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #85612b; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los iconos */
+footer .social-links a i {
+    margin-right: 8px; 
+    font-size: 20px; 
+    
+}
